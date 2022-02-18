@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LayeredProjrct.Core\LayeredProjrct.Core.csproj" />
+    <ProjectReference Include="..\LayeredProjrct.Extensions\LayeredProjrct.Extensions.csproj" />
+  </ItemGroup>
+
+</Project>
